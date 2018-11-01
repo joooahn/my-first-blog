@@ -1,0 +1,703 @@
+
+<!DOCTYPE HTML>
+<html lang="ko" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>들어가며 · Django Girls Tutorial</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="DjangoGirls">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-richquotes/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-language-picker/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-sidebar-ad/sidebar-ad.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-codeblock-label/block.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="installation/" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+  
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="검색어 입력" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://gitter.im/DjangoGirls/tutorial" target="_blank" class="custom-link">Need help? Talk to us!</a>
+        </li>
+    
+        
+        <li>
+            <a href="https://legacy.gitbook.com/book/djangogirls/djangogirls-tutorial" target="_blank" class="custom-link">Django Girls Tutorial</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter active" data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    들어가며
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="installation/">
+            
+                <a href="installation/">
+            
+                    
+                    설치하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="chromebook_setup/">
+            
+                <a href="chromebook_setup/">
+            
+                    
+                    설치하기 (chromebook)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="how_the_internet_works/">
+            
+                <a href="how_the_internet_works/">
+            
+                    
+                    인터넷은 어떻게 작동할까요
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="intro_to_command_line/">
+            
+                <a href="intro_to_command_line/">
+            
+                    
+                    Command Line 시작하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="python_installation/">
+            
+                <a href="python_installation/">
+            
+                    
+                    Python 설치하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="code_editor/">
+            
+                <a href="code_editor/">
+            
+                    
+                    코드 에디터
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="python_introduction/">
+            
+                <a href="python_introduction/">
+            
+                    
+                    Python 시작하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="django/">
+            
+                <a href="django/">
+            
+                    
+                    Django란 무엇인가요
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="django_installation/">
+            
+                <a href="django_installation/">
+            
+                    
+                    Django 설치하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="django_start_project/">
+            
+                <a href="django_start_project/">
+            
+                    
+                    나의 첫 번째 Django 프로젝트!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="django_models/">
+            
+                <a href="django_models/">
+            
+                    
+                    Django 모델
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="django_admin/">
+            
+                <a href="django_admin/">
+            
+                    
+                    Django 관리자
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="deploy/">
+            
+                <a href="deploy/">
+            
+                    
+                    배포하기!
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="django_urls/">
+            
+                <a href="django_urls/">
+            
+                    
+                    Django urls
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="django_views/">
+            
+                <a href="django_views/">
+            
+                    
+                    Django 뷰 만들기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="html/">
+            
+                <a href="html/">
+            
+                    
+                    HTML 시작하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="django_orm/">
+            
+                <a href="django_orm/">
+            
+                    
+                    Django ORM(Querysets)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="dynamic_data_in_templates/">
+            
+                <a href="dynamic_data_in_templates/">
+            
+                    
+                    템플릿 동적 데이터
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="django_templates/">
+            
+                <a href="django_templates/">
+            
+                    
+                    Django 템플릿
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" data-path="css/">
+            
+                <a href="css/">
+            
+                    
+                    CSS - 예쁘게 만들기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22" data-path="template_extending/">
+            
+                <a href="template_extending/">
+            
+                    
+                    템플릿 확장하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23" data-path="extend_your_application/">
+            
+                <a href="extend_your_application/">
+            
+                    
+                    애플리케이션 확장하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.24" data-path="django_forms/">
+            
+                <a href="django_forms/">
+            
+                    
+                    Django 폼
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.25" data-path="whats_next/">
+            
+                <a href="whats_next/">
+            
+                    
+                    더 나아가기
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            GitBook에 게시
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+  <div class="sidebar-addition">
+      
+        <a href="https://store.djangogirls.org/" target="_blank">
+      
+        <img src="https://cdn.shopify.com/s/files/1/0992/7712/products/codelikeagirl---mockup4_large.jpg" />
+      
+        </a>
+      
+      
+        <p>💖 Support our work and buy a Django Girls t-shirt! ✨</p>
+      
+      
+      <a href="https://store.djangogirls.org/" class="btn" target="_blank">
+        Get a t-shirt!
+      </a>
+      
+  </div>
+
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >들어가며</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#xC7A5;&#xACE0;&#xAC78;&#xC2A4;-&#xD29C;&#xD1A0;&#xB9AC;&#xC5BC;-django-girls-tutorial">&#xC7A5;&#xACE0;&#xAC78;&#xC2A4; &#xD29C;&#xD1A0;&#xB9AC;&#xC5BC; (Django Girls Tutorial)</h1>
+<p><a href="https://gitter.im/DjangoGirls/tutorial" target="_blank"><img src="https://badges.gitter.im/DjangoGirls/tutorial.svg" alt="Gitter"></a></p>
+<blockquote>
+<p>&#xC774; &#xD29C;&#xD1A0;&#xB9AC;&#xC5BC;&#xC740; Creative Commons Attribution-ShareAlike 4.0 International &#xC800;&#xC791;&#xAD8C;&#xC744; &#xC900;&#xC218;&#xD569;&#xB2C8;&#xB2E4;.
+&#xB77C;&#xC774;&#xC13C;&#xC2A4; &#xC804;&#xBB38;&#xC740; <a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank">https://creativecommons.org/licenses/by-sa/4.0</a> &#xC5D0;&#xC11C; &#xD655;&#xC778;&#xD558;&#xC138;&#xC694;.</p>
+</blockquote>
+<h2 id="&#xBC88;&#xC5ED;">&#xBC88;&#xC5ED;</h2>
+<p>&#xC774; &#xD29C;&#xD1A0;&#xB9AC;&#xC5BC;&#xC740; &#xC5F4;&#xC815;&#xC801;&#xC778; &#xC7A5;&#xACE0;&#xAC78;&#xC2A4; &#xCF54;&#xCE58;&#xB4E4;&#xACFC; &#xC790;&#xC6D0;&#xBD09;&#xC0AC;&#xC790;&#xB4E4;&#xC758; &#xC218;&#xACE0;&#xB85C; &#xBC88;&#xC5ED;&#xB418;&#xC5C8;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
+<blockquote>
+<p>&#xBC88;&#xC5ED; &#xC5C5;&#xB370;&#xC774;&#xD2B8; &#xBC0F; &#xBC88;&#xC5ED;&#xC790;</p>
+<ul>
+<li>1&#xCC28; : 2015. 10. 1. 
+  <a href="https://github.com/sujinleeme" target="_blank">&#xC774;&#xC218;&#xC9C4;</a>, &#xD568;&#xAE30;&#xD6C8;, <a href="http://jinto.pe.kr/" target="_blank">Jay Park</a>, &#xC870;&#xD61C;&#xC120;, <a href="https://twitter.com/initialkommit" target="_blank">&#xC815;&#xAD11;&#xC724;</a>, &#xC784;&#xC815;&#xD6C8;, &#xBB38;&#xC9C0;&#xC601;, &#xAE40;&#xD718;&#xACBD;, &#xC1A1;&#xC11D;&#xB9AC;, &#xC5EC;&#xD615;&#xC11D;, &#xC2EC;&#xD61C;&#xBBFC;</li>
+<li>2&#xCC28; : 2016. 6. 3. 
+  <a href="https://github.com/sujinleeme" target="_blank">&#xC774;&#xC218;&#xC9C4;</a></li>
+<li>3&#xCC28; : 2017. 5. 19.
+  <a href="https://github.com/sujinleeme" target="_blank">&#xC774;&#xC218;&#xC9C4;</a></li>
+</ul>
+</blockquote>
+<h2 id="&#xD658;&#xC601;&#xD569;&#xB2C8;&#xB2E4;">&#xD658;&#xC601;&#xD569;&#xB2C8;&#xB2E4;</h2>
+<p>&#xC7A5;&#xACE0;&#xAC78;&#xC2A4; &#xD29C;&#xD1A0;&#xB9AC;&#xC5BC;&#xC5D0; &#xC624;&#xC2E0; &#xC5EC;&#xB7EC;&#xBD84;&#xB4E4;&#xC744; &#xD658;&#xACBD;&#xD569;&#xB2C8;&#xB2E4;! &#xC774; &#xACF3;&#xC5D0;&#xC11C; &#xB9CC;&#xB098;&#xAC8C; &#xB418;&#xC5B4; &#xAE30;&#xBED0;&#xC694; :) &#xC5EC;&#xB7EC;&#xBD84;&#xC744; &#xC6F9; &#xD14C;&#xD06C;&#xB180;&#xB85C;&#xC9C0;&#xC758; &#xC5EC;&#xC815;&#xC73C;&#xB85C; &#xCD08;&#xB300;&#xD558;&#xC5EC; &#xD568;&#xAED8; &#xC870;&#xAE08;&#xC529; &#xB9DB;&#xBCF4;&#xBA74;&#xC11C; &#xC6F9;&#xC774; &#xC5B4;&#xB5BB;&#xAC8C; &#xC791;&#xB3D9;&#xD558;&#xB294;&#xC9C0; &#xC54C; &#xC218; &#xC788;&#xB3C4;&#xB85D; &#xB3C4;&#xC640;&#xB4DC;&#xB9B4; &#xAC70;&#xC5D0;&#xC694;.</p>
+<p>&#xC544;&#xC9C1; &#xBC1C;&#xACAC;&#xD558;&#xC9C0; &#xBABB;&#xD55C; &#xAC83;&#xC744; &#xC54C;&#xC544;&#xAC00;&#xC57C;&#xD558;&#xB294; &#xAF64; &#xB3C4;&#xC804;&#xC801;&#xC778; &#xBAA8;&#xD5D8;&#xC774; &#xB420; &#xAC83;&#xC774;&#xC9C0;&#xB9CC;, &#xC9C0;&#xAE08; &#xC774; &#xD29C;&#xD1A0;&#xB9AC;&#xC5BC;&#xC744; &#xBCF4;&#xB294; &#xC5EC;&#xB7EC;&#xBD84;&#xB4E4;&#xC740; &#xC6A9;&#xAE30;&#xB97C; &#xAC00;&#xC9C0;&#xACE0; &#xC788;&#xAE30; &#xB54C;&#xBB38;&#xC5D0;, &#xB05D;&#xAE4C;&#xC9C0; &#xC798; &#xD574;&#xB0BC; &#xAC70;&#xB77C; &#xBBFF;&#xC5B4;&#xC694;. :)</p>
+<h2 id="&#xB4E4;&#xC5B4;&#xAC00;&#xBA70;">&#xB4E4;&#xC5B4;&#xAC00;&#xBA70;</h2>
+<p>&#xC810;&#xC810; &#xAE30;&#xC220;&#xC774; &#xC911;&#xC694;&#xD574;&#xC9C4; &#xC138;&#xC0C1;&#xC5D0; &#xC0B4;&#xACE0; &#xC788;&#xC9C0;&#xB9CC; &#xB098;&#xC640; &#xAD00;&#xB828;&#xC774; &#xC5C6;&#xB2E4;&#xACE0; &#xC0DD;&#xAC01;&#xD55C; &#xC801;&#xC774; &#xC788;&#xB098;&#xC694;? &#xADF8;&#xB3D9;&#xC548; &#xC6F9; &#xC0AC;&#xC774;&#xD2B8;&#xB97C; &#xC5B4;&#xB5BB;&#xAC8C; &#xB9CC;&#xB4DC;&#xB294;&#xC9C0; &#xAD81;&#xAE08;&#xD588;&#xC9C0;&#xB9CC; &#xB9C9;&#xC0C1; &#xC2DC;&#xC791;&#xD558;&#xAE30; &#xC5B4;&#xB824;&#xC6E0;&#xB098;&#xC694;? &#xC18C;&#xD504;&#xD2B8;&#xC6E8;&#xC5B4; &#xC138;&#xC0C1;&#xC774; &#xBCF5;&#xC7A1;&#xD574;&#xBCF4;&#xC5EC; &#xD63C;&#xC790;&#xC11C; &#xC9C1;&#xC811; &#xB9CC;&#xB4E4;&#xAE30;&#xC5D4; &#xC5C4;&#xB450;&#xAC00; &#xB098;&#xC9C0; &#xC54A;&#xC558;&#xB098;&#xC694;?</p>
+<p>&#xADF8;&#xB7F0; &#xC5EC;&#xB7EC;&#xBD84;&#xB4E4;&#xC5D0;&#xAC8C; &#xBC18;&#xAC00;&#xC6B4; &#xC18C;&#xC2DD;&#xC774; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;! &#xD504;&#xB85C;&#xADF8;&#xB798;&#xBC0D;&#xC740; &#xC0DD;&#xAC01;&#xB9CC;&#xD07C; &#xC5B4;&#xB824;&#xC6B4; &#xAC83;&#xC774; &#xC544;&#xB2C8;&#xB78D;&#xB2C8;&#xB2E4;. &#xC6B0;&#xB9AC;&#xB294; &#xC5EC;&#xB7EC;&#xBD84;&#xB4E4;&#xC5D0;&#xAC8C; &#xD504;&#xB85C;&#xADF8;&#xB798;&#xBC0D;&#xC774; &#xC5BC;&#xB9C8;&#xB098; &#xC7AC;&#xBBF8;&#xC788;&#xB294; &#xAC83;&#xC778;&#xC9C0; &#xC54C;&#xB824;&#xB4DC;&#xB9AC;&#xACE0; &#xC2F6;&#xC5B4;&#xC694;.</p>
+<p>&#xBB3C;&#xB860; &#xC774; &#xD29C;&#xD1A0;&#xB9AC;&#xC5BC;&#xC744; &#xC77D;&#xAE30;&#xB9CC; &#xD558;&#xBA74; &#xBAA8;&#xB450;&#xAC00; &#xD504;&#xB85C;&#xADF8;&#xB798;&#xBA38;&#xAC00; &#xB418;&#xB294; &#xAE30;&#xC801;&#xC740; &#xC77C;&#xC5B4;&#xB098;&#xC9C0; &#xC54A;&#xC744; &#xAC70;&#xC608;&#xC694;. &#xD504;&#xB85C;&#xADF8;&#xB798;&#xBC0D;&#xC5D0; &#xB2A5;&#xC219;&#xD574;&#xC9C0;&#xB824;&#xBA74; &#xBA87; &#xB2EC;, &#xD639;&#xC740; &#xBA87; &#xB144;&#xC774;&#xB098; &#xACF5;&#xBD80;&#xD558;&#xACE0; &#xC218;&#xB828;&#xD574;&#xC57C; &#xD569;&#xB2C8;&#xB2E4;. &#xADF8;&#xB7EC;&#xB098; &#xD504;&#xB85C;&#xADF8;&#xB798;&#xBC0D;&#xC774;&#xB098; &#xC6F9; &#xC0AC;&#xC774;&#xD2B8; &#xC81C;&#xC791;&#xC740; &#xC0DD;&#xAC01;&#xB9CC;&#xD07C; &#xBCF5;&#xC7A1;&#xD558;&#xC9C0; &#xC54A;&#xC544;&#xC694;. &#xC774; &#xD29C;&#xD1A0;&#xB9AC;&#xC5BC;&#xC744; &#xC77D;&#xB294; &#xC5EC;&#xB7EC;&#xBD84;&#xB4E4;&#xC774; &#xAC81;&#xBA39;&#xC9C0; &#xC54A;&#xB3C4;&#xB85D; &#xCC28;&#xADFC;&#xCC28;&#xADFC; &#xCE5C;&#xC808;&#xD558;&#xAC8C; &#xC124;&#xBA85;&#xD574; &#xB4DC;&#xB9B4; &#xAC70;&#xC5D0;&#xC694;.</p>
+<p>&#xC6B0;&#xB9AC;&#xAC00; &#xADF8;&#xB7AC;&#xB4EF;&#xC774; &#xC5EC;&#xB7EC;&#xBD84;&#xB4E4;&#xB3C4; &#xD504;&#xB85C;&#xADF8;&#xB798;&#xBC0D;&#xC744; &#xC0AC;&#xB791;&#xD560; &#xC218; &#xC788;&#xAC8C; &#xB418;&#xAE38; &#xBC14;&#xB78D;&#xB2C8;&#xB2E4;!</p>
+<h2 id="&#xD29C;&#xD1A0;&#xB9AC;&#xC5BC;&#xC5D0;&#xC11C;-&#xBB34;&#xC5C7;&#xC744;-&#xBC30;&#xC6B0;&#xAC8C;-&#xB418;&#xB098;&#xC694;">&#xD29C;&#xD1A0;&#xB9AC;&#xC5BC;&#xC5D0;&#xC11C; &#xBB34;&#xC5C7;&#xC744; &#xBC30;&#xC6B0;&#xAC8C; &#xB418;&#xB098;&#xC694;?</h2>
+<p>&#xC774; &#xD29C;&#xD1A0;&#xB9AC;&#xC5BC;&#xC744; &#xB05D;&#xB0B4;&#xBA74; &#xAC04;&#xB2E8;&#xD55C; &#xAE30;&#xB2A5;&#xC744; &#xAC16;&#xCD98; &#xB098;&#xB9CC;&#xC758; &#xBE14;&#xB85C;&#xADF8; &#xC0AC;&#xC774;&#xD2B8;&#xB97C; &#xC644;&#xC131;&#xD560; &#xC218; &#xC788;&#xC5B4;&#xC694;. &#xC628;&#xB77C;&#xC778;&#xC5D0; &#xC6F9;&#xC0AC;&#xC774;&#xD2B8;&#xB97C; &#xC62C;&#xB9AC;&#xB294; &#xBC29;&#xBC95;&#xB3C4; &#xBC30;&#xC6B8; &#xAC70;&#xC5D0;&#xC694;. &#xB2E4;&#xB978; &#xC0AC;&#xB78C;&#xB4E4;&#xB3C4; &#xC5EC;&#xB7EC;&#xBD84;&#xC758; &#xC791;&#xD488;&#xC744; &#xBCF4;&#xAC8C; &#xB420; &#xAC70;&#xB78D;&#xB2C8;&#xB2E4;!</p>
+<p>&#xC6B0;&#xB9AC;&#xB294; &#xC55E;&#xC73C;&#xB85C; &#xC544;&#xB798;&#xC640; &#xAC19;&#xC740; &#xC6F9; &#xC0AC;&#xC774;&#xD2B8;&#xB97C; &#xB9CC;&#xB4E4;&#xC5B4; &#xBCFC; &#xAC70;&#xC608;&#xC694;.</p>
+<p><img src="images/application.png" alt="Figure 0.1"></p>
+<blockquote>
+<p>&#xB9CC;&#xC57D; &#xC9D1;&#xC5D0;&#xC11C; &#xD63C;&#xC790; &#xD29C;&#xD1A0;&#xB9AC;&#xC5BC;&#xC744; &#xB530;&#xB77C;&#xD558;&#xB2E4; &#xBB38;&#xC81C;&#xAC00; &#xC0DD;&#xACBC;&#xC9C0;&#xB9CC; &#xC8FC;&#xBCC0;&#xC5D0; &#xB3C4;&#xC6C0;&#xBC1B;&#xC744; &#xC0AC;&#xB78C;&#xC774; &#xC5C6;&#xB2E4;&#xBA74; &#xC774; &#xACF3;&#xC5D0;&#xC11C; &#xC9C8;&#xBB38;&#xD558;&#xC138;&#xC694; : <a href="https://gitter.im/DjangoGirls/tutorial" target="_blank"><img src="https://badges.gitter.im/DjangoGirls/tutorial.svg" alt="Gitter"></a>. &#xCF54;&#xCE58;&#xC640; &#xC6CC;&#xD06C;&#xC0F5; &#xCC38;&#xAC00;&#xC790;&#xB4E4;&#xC740; &#xC5EC;&#xB7EC;&#xBD84;&#xB4E4;&#xC744; &#xB3C4;&#xC640;&#xC904; &#xAC70;&#xC5D0;&#xC694;! &#xC5B4;&#xB5A4; &#xC9C8;&#xBB38;&#xC774;&#xB4E0; &#xC8FC;&#xC800;&#xD558;&#xC9C0; &#xB9D0;&#xACE0; &#xBB3C;&#xC5B4;&#xBCF4;&#xC138;&#xC694;!</p>
+</blockquote>
+<p>&#xC790;, <a href="how_the_internet_works/">&#xC774;&#xC81C; &#xADF8;&#xB7FC; &#xC5B4;&#xC11C; &#xC2DC;&#xC791;&#xD574;&#xBCFC;&#xAE4C;&#xC694;.</a></p>
+<h2 id="&#xC9D1;&#xC5D0;&#xC11C;-&#xD29C;&#xD1A0;&#xB9AC;&#xC5BC;-&#xB530;&#xB77C;&#xD558;&#xAE30;">&#xC9D1;&#xC5D0;&#xC11C; &#xD29C;&#xD1A0;&#xB9AC;&#xC5BC; &#xB530;&#xB77C;&#xD558;&#xAE30;</h2>
+<p>&#xC7A5;&#xACE0;&#xAC78;&#xC2A4; &#xC6CC;&#xD06C;&#xC0F5;&#xC5D0;&#xC11C; &#xBAA8;&#xB4E0; &#xBD84;&#xB4E4;&#xC744; &#xB9CC;&#xB098;&#xBD59;&#xACE0; &#xC2F6;&#xC9C0;&#xB9CC;, &#xCC38;&#xC11D;&#xD558;&#xAE30; &#xC5B4;&#xB824;&#xC6B4; &#xBD84;&#xB4E4;&#xC774; &#xC788;&#xB2E4;&#xB294; &#xAC83;&#xC744; &#xC798; &#xC54C;&#xACE0; &#xC788;&#xC5B4;&#xC694;. &#xADF8;&#xB798;&#xC11C; &#xC6CC;&#xD06C;&#xC0F5;&#xC5D0; &#xCC38;&#xC11D;&#xD558;&#xC9C0; &#xBABB;&#xD558;&#xB294; &#xBD84;&#xB4E4;&#xC740; &#xC9D1;&#xC5D0;&#xC11C; &#xD29C;&#xD1A0;&#xB9AC;&#xC5BC;&#xC744; &#xBCF4;&#xBA70; &#xC790;&#xC2B5;&#xD558;&#xC2DC;&#xAE38;&#xC744; &#xAD8C;&#xC7A5;&#xD558;&#xACE0; &#xC788;&#xC5B4;&#xC694;. &#xD63C;&#xC790;&#xC11C;&#xB3C4; &#xC9D1;&#xC5D0;&#xC11C; &#xD29C;&#xD1A0;&#xB9AC;&#xC5BC;&#xC744; &#xBCF4;&#xBA70; &#xD559;&#xC2B5;&#xD558;&#xC2E4; &#xC218; &#xC788;&#xB3C4;&#xB85D; &#xBE44;&#xB514;&#xC624; &#xB3D9;&#xC601;&#xC0C1;&#xC744; &#xB9CC;&#xB4E4;&#xACE0; &#xC788;&#xC5B4;&#xC694;. <a href="https://www.youtube.com/channel/UC0hNd2uW8jTR5K3KBzRuG2A" target="_blank">Coding is for girls &#xC720;&#xD22C;&#xBE0C; &#xCC44;&#xB110;</a>&#xC5D0;&#xC11C; &#xBCF4;&#xC2E4; &#xC218; &#xC788;&#xACE0;, &#xC55E;&#xC73C;&#xB85C; &#xB354; &#xB9CE;&#xC740; &#xC601;&#xC0C1;&#xB4E4;&#xC744; &#xBCF4;&#xC5EC;&#xB4DC;&#xB9B4; &#xC608;&#xC815;&#xC785;&#xB2C8;&#xB2E4;.</p>
+<h2 id="&#xD29C;&#xD1A0;&#xB9AC;&#xC5BC;-&#xCC38;&#xC5EC;&#xD558;&#xAE30;">&#xD29C;&#xD1A0;&#xB9AC;&#xC5BC; &#xCC38;&#xC5EC;&#xD558;&#xAE30;</h2>
+<p>&#xC774; &#xD29C;&#xD1A0;&#xB9AC;&#xC5BC;&#xC740; <a href="https://djangogirls.org/" target="_blank">DjangoGirls</a>&#xC5D0;&#xC11C; &#xC9C0;&#xC18D;&#xC801;&#xC73C;&#xB85C; &#xAD00;&#xB9AC;&#xD558;&#xACE0; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;. &#xC624;&#xB958;&#xB97C; &#xBC1C;&#xACAC;&#xD558;&#xAC70;&#xB098; &#xD29C;&#xD1A0;&#xB9AC;&#xC5BC; &#xB0B4;&#xC6A9;&#xC744; &#xC5C5;&#xB370;&#xC774;&#xD2B8;&#xD558;&#xACE0; &#xC2F6;&#xB2E4;&#xBA74; <a href="https://github.com/DjangoGirls/tutorial/blob/master/README.md" target="_blank">&#xCC38;&#xC5EC; &#xBC29;&#xBC95;</a>&#xC744; &#xCC38;&#xACE0;&#xD558;&#xC138;&#xC694;.</p>
+<h2 id="&#xD29C;&#xD1A0;&#xB9AC;&#xC5BC;-&#xBC88;&#xC5ED;-&#xCC38;&#xC5EC;&#xD558;&#xAE30;">&#xD29C;&#xD1A0;&#xB9AC;&#xC5BC; &#xBC88;&#xC5ED; &#xCC38;&#xC5EC;&#xD558;&#xAE30;</h2>
+<p>&#xC7A5;&#xACE0;&#xAC78;&#xC2A4; &#xD29C;&#xD1A0;&#xB9AC;&#xC5BC;&#xC740; crowdin.com&#xC5D0;&#xC11C; &#xC804;&#xC138;&#xACC4; &#xC5B8;&#xC5B4;&#xB85C; &#xBC88;&#xC5ED;&#xB418;&#xACE0; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4; <a href="https://crowdin.com/project/django-girls-tutorial" target="_blank">https://crowdin.com/project/django-girls-tutorial</a>
+&#xC5EC;&#xB7EC;&#xBD84;&#xC774; &#xC0AC;&#xC6A9;&#xD558;&#xB294; &#xC5B8;&#xC5B4;&#xAC00; &#xC5C6;&#xB2E4;&#xBA74;, <a href="https://github.com/DjangoGirls/tutorial/issues/new" target="_blank">github &#xC774;&#xC288;</a>&#xC5D0; &#xB4F1;&#xB85D;&#xD558;&#xC154;&#xC11C; &#xC800;&#xD76C;&#xC5D0;&#xAC8C; &#xC54C;&#xB824;&#xC8FC;&#xC138;&#xC694;.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="installation/" class="navigation navigation-next navigation-unique" aria-label="Next page: 설치하기">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"들어가며","level":"1.1","depth":1,"next":{"title":"설치하기","level":"1.2","depth":1,"path":"installation/README.md","ref":"installation/README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["heading-anchors@1.0.3","ga@1.0.1","richquotes@0.0.9","github@2.0.0","language-picker","sidebar-ad","codeblock-label","sectionx",""],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"language-picker":{"grid-columns":3},"github":{"url":"https://github.com/DjangoGirls/tutorial"},"codeblock-label":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"richquotes":{"default":false},"sectionx":{"tag":"b"},"heading-anchors":{},"sidebar-ad":{"imageUrl":"https://cdn.shopify.com/s/files/1/0992/7712/products/codelikeagirl---mockup4_large.jpg","url":"https://store.djangogirls.org/","description":"💖 Support our work and buy a Django Girls t-shirt! ✨","btnText":"Get a t-shirt!"},"highlight":{},"ga":{"configuration":"auto","token":"UA-51680040-3"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"github":"DjangoGirls/tutorial","theme":"default","author":"DjangoGirls","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"django_version":"2.0.6"},"title":"Django Girls Tutorial","language":"ko","links":{"sidebar":{"Need help? Talk to us!":"https://gitter.im/DjangoGirls/tutorial","Django Girls Tutorial":"https://legacy.gitbook.com/book/djangogirls/djangogirls-tutorial"},"gitbook":true},"gitbook":"*","description":"This book is a Django tutorial created for DjangoGirls event."},"file":{"path":"README.md","mtime":"2018-10-31T17:01:05.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-10-31T17:02:29.493Z"},"basePath":".","book":{"language":"ko"}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/1.2.1/anchor.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-heading-anchors/anchor-style.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-language-picker/plugin.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    
+<div><script style="display: none;" type="application/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57505611-7', 'auto', {name: 'microcdn'});
+  ga('microcdn.send', 'pageview');
+
+  var _cdn_prev_loc = window.location.pathname;
+  window.setInterval(function () {
+    if (window.location.pathname !== _cdn_prev_loc) {
+      _cdn_prev_loc = window.location.pathname;
+      ga('microcdn.send', 'pageview');
+    }
+  }, 100);
+
+</script></div>
+</body>
+</html>
+
+���ϧ      [��[��?�DC       %    :https://tutorial.djangogirls.org/ko/ necko:classified 1 strongly-framed 1 security-info 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 request-method GET request-Accept-Encoding gzip, deflate, br response-head HTTP/2.0 200 OK
+age: 4811
+content-encoding: identity
+content-type: text/html; charset=UTF-8
+etag: W/"a3c21b802f9891791f39a3c335fb0084"
+last-modified: Thu, 01 Nov 2018 09:49:47 GMT
+vary: Accept-Encoding
+x-cache: HIT
+x-cdn-cache-group: djangogirls/djangogirls-tutorial
+date: Thu, 01 Nov 2018 11:09:58 GMT
+X-Firefox-Spdy: h2
+ original-response-headers age: 4811
+content-encoding: identity
+content-type: text/html; charset=UTF-8
+etag: W/"a3c21b802f9891791f39a3c335fb0084"
+last-modified: Thu, 01 Nov 2018 09:49:47 GMT
+vary: Accept-Encoding
+x-cache: HIT
+x-cdn-cache-group: djangogirls/djangogirls-tutorial
+date: Thu, 01 Nov 2018 11:09:58 GMT
+X-Firefox-Spdy: h2
+ predictor::resource-count 36 predictor::https://tutorial.djangogirls.org/gitbook/style.css 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/gitbook/gitbook-plugin-richquotes/plugin.css 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/gitbook/gitbook-plugin-language-picker/plugin.css 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/gitbook/gitbook-plugin-sidebar-ad/sidebar-ad.css 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/gitbook/gitbook-plugin-codeblock-label/block.css 1,1,1541070597,4096 predictor::https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/gitbook/gitbook-plugin-sectionx/sectionx.css 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/gitbook/gitbook-plugin-highlight/website.css 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/gitbook/gitbook-plugin-search/search.css 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/gitbook/gitbook-plugin-fontsettings/website.css 1,1,1541070597,4096 net-response-time-onstart 1800 net-response-time-onstop 2031 predictor::https://cdn.shopify.com/s/files/1/0992/7712/products/codelikeagirl---mockup4_large.jpg 1,1,1541070597,4097 predictor::https://badges.gitter.im/DjangoGirls/tutorial.svg 1,1,1541070597,4097 predictor::https://tutorial.djangogirls.org/ko/images/application.png 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/gitbook/gitbook.js 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/gitbook/theme.js 1,1,1541070597,4096 predictor::https://cdnjs.cloudflare.com/ajax/libs/anchor-js/1.2.1/anchor.min.js 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/gitbook/gitbook-plugin-heading-anchors/anchor-style.js 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/gitbook/gitbook-plugin-ga/plugin.js 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/gitbook/gitbook-plugin-github/plugin.js 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/gitbook/gitbook-plugin-language-picker/plugin.js 1,1,1541070597,4096 predictor::https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/gitbook/gitbook-plugin-sectionx/sectionx.js 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/gitbook/gitbook-plugin-search/search-engine.js 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/gitbook/gitbook-plugin-search/search.js 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/gitbook/gitbook-plugin-lunr/lunr.min.js 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/gitbook/gitbook-plugin-lunr/search-lunr.js 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/gitbook/gitbook-plugin-sharing/buttons.js 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/gitbook/gitbook-plugin-fontsettings/fontsettings.js 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/gitbook/fonts/fontawesome/fontawesome-webfont.woff2?v=4.6.3 1,1,1541070597,4096 predictor::https://www.google-analytics.com/analytics.js 1,1,1541070597,4096 predictor::https://www.google-analytics.com/r/collect?v=1&_v=j71&a=559811192&t=pageview&_s=1&dl=https%3A%2F%2Ftutorial.djangogirls.org%2Fko%2F&dr=https%3A%2F%2Fwww.google.com%2F&ul=en-us&de=UTF-8&dt=%EB%93%A4%EC%96%B4%EA%B0%80%EB%A9%B0%20%C2%B7%20Django%20Girls%20Tutorial&sd=24-bit&sr=800x600&vp=733x471&je=0&_u=IEBAAEAB~&jid=698969795&gjid=1141884260&cid=2096301190.1541070601&tid=UA-57505611-7&_gid=491994804.1541070601&_r=1&z=807538706 1,1,1541070597,4096 predictor::https://www.google-analytics.com/r/collect?v=1&_v=j71&a=559811192&t=pageview&_s=1&dl=https%3A%2F%2Ftutorial.djangogirls.org%2Fko%2F&dr=https%3A%2F%2Fwww.google.com%2F&dp=%2Fko%2F&ul=en-us&de=UTF-8&dt=%EB%93%A4%EC%96%B4%EA%B0%80%EB%A9%B0%20%C2%B7%20Django%20Girls%20Tutorial&sd=24-bit&sr=800x600&vp=733x471&je=0&_u=IEDAAEAB~&jid=938579191&gjid=1129494322&cid=2096301190.1541070601&tid=UA-51680040-3&_gid=491994804.1541070601&_r=1&z=2140164318 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/ko/images/step1.png 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/ko/images/step3.png 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/ko/images/step4.png 1,1,1541070597,4096 predictor::https://tutorial.djangogirls.org/ko/images/step6.png 1,1,1541070597,4096   ra

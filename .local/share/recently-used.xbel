@@ -33,12 +33,42 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/joooahn/.gitignore" added="2018-10-30T11:28:17Z" modified="2018-10-30T11:28:17Z" visited="2018-10-30T11:28:17.301149Z">
+  <bookmark href="file:///home/joooahn/.gitignore" added="2018-10-30T11:28:17Z" modified="2018-10-30T11:28:17Z" visited="2018-10-30T11:28:17Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/octet-stream"/>
         <bookmark:applications>
           <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2018-10-30T11:28:17Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joooahn/blog/urls.py" added="2018-11-01T00:05:05Z" modified="2018-11-01T00:13:58Z" visited="2018-11-01T00:05:05Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2018-11-01T00:13:58Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joooahn/blog/views.py" added="2018-11-01T00:14:27Z" modified="2018-11-01T00:14:27Z" visited="2018-11-01T00:14:27Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-python"/>
+        <bookmark:applications>
+          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2018-11-01T00:14:27Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joooahn/blog/templates/blog/post_list.html" added="2018-11-01T10:55:04Z" modified="2018-11-01T10:55:04Z" visited="2018-11-01T10:55:04.561321Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2018-11-01T10:55:04Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
