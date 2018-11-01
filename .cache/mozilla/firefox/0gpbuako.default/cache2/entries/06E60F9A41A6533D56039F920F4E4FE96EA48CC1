@@ -513,12 +513,12 @@ form .related-widget-wrapper ul {
 .clearable-file-input input {
     margin-top: 0;
 }
-­UÅ¦Ò      [×·[×·"?«¥$[×¸#   1    :http://127.0.0.1:8000/static/admin/css/forms.css necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.0 200 OK
-Date: Tue, 30 Oct 2018 01:42:58 GMT
-Server: WSGIServer/0.2 CPython/3.6.6
+±k¦Ò      [ÚèF[Úæˆ?®|[Û9   1    :http://127.0.0.1:8000/static/admin/css/forms.css necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.0 200 OK
 Content-Type: text/css
 Last-Modified: Tue, 30 Oct 2018 01:00:05 GMT
 Content-Length: 8173
+Date: Thu, 01 Nov 2018 11:42:00 GMT
+Server: WSGIServer/0.2 CPython/3.6.6
  original-response-headers Date: Tue, 30 Oct 2018 01:42:58 GMT
 Server: WSGIServer/0.2 CPython/3.6.6
 Content-Type: text/css

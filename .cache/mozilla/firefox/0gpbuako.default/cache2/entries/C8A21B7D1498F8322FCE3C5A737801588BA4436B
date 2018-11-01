@@ -563,15 +563,15 @@ select + .related-widget-wrapper-link,
 .related-widget-wrapper-link + .related-widget-wrapper-link {
     margin-left: 7px;
 }
-OdãêB      [×·€[×·"?«¥$[×¸#   3    :http://127.0.0.1:8000/static/admin/css/widgets.css necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.0 200 OK
-Date: Tue, 30 Oct 2018 01:42:58 GMT
+‘ðØêB      	[ÚèF[Úæˆ?®Rý[Û8Ô   3    :http://127.0.0.1:8000/static/admin/css/widgets.css strongly-framed 1 request-method GET response-head HTTP/1.0 200 OK
+Date: Thu, 01 Nov 2018 11:41:03 GMT
 Server: WSGIServer/0.2 CPython/3.6.6
 Content-Type: text/css
 Last-Modified: Tue, 30 Oct 2018 01:00:05 GMT
 Content-Length: 10340
- original-response-headers Date: Tue, 30 Oct 2018 01:42:58 GMT
+ original-response-headers Date: Thu, 01 Nov 2018 11:41:03 GMT
 Server: WSGIServer/0.2 CPython/3.6.6
 Content-Type: text/css
 Last-Modified: Tue, 30 Oct 2018 01:00:05 GMT
 Content-Length: 10340
- uncompressed-len 0 net-response-time-onstart 5 net-response-time-onstop 7   (d
+ uncompressed-len 0 net-response-time-onstart 11 net-response-time-onstop 12 necko:classified 1   (d

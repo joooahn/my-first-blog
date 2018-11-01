@@ -2,9 +2,9 @@
 <application-state>
   <context id="">
     <application id="gnome-initial-setup.desktop" open-window-count="0" score="5" last-seen="1540859755"/>
-    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="500" last-seen="1541069875"/>
-    <application id="firefox.desktop" open-window-count="1" score="72" last-seen="1541069946"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="715" last-seen="1541072982"/>
+    <application id="firefox.desktop" open-window-count="1" score="142" last-seen="1541073180"/>
     <application id="update-manager.desktop" open-window-count="0" score="0" last-seen="1540859916"/>
-    <application id="atom.desktop" open-window-count="1" score="1090" last-seen="1541069933"/>
+    <application id="atom.desktop" open-window-count="1" score="1254" last-seen="1541073059"/>
   </context>
 </application-state>

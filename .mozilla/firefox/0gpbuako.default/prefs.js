@@ -37,7 +37,7 @@ user_pref("browser.newtabpage.activity-stream.migrationLastShownDate", 154105560
 user_pref("browser.newtabpage.activity-stream.migrationRemainingDays", 1);
 user_pref("browser.newtabpage.storageVersion", 1);
 user_pref("browser.onboarding.notification.last-time-of-changing-tour-sec", 1540862452);
-user_pref("browser.onboarding.notification.prompt-count", 1);
+user_pref("browser.onboarding.notification.prompt-count", 2);
 user_pref("browser.onboarding.notification.tour-ids-queue", "onboarding-tour-performance,onboarding-tour-private-browsing,onboarding-tour-screenshots,onboarding-tour-addons,onboarding-tour-customize,onboarding-tour-default-browser,onboarding-tour-performance,onboarding-tour-private-browsing,onboarding-tour-screenshots,onboarding-tour-addons,onboarding-tour-customize,onboarding-tour-default-browser");
 user_pref("browser.onboarding.seen-tourset-version", 2);
 user_pref("browser.onboarding.tour-type", "new");
@@ -45,10 +45,10 @@ user_pref("browser.pageActions.persistedActions", "{\"version\":1,\"ids\":[\"boo
 user_pref("browser.pagethumbnails.storage_version", 3);
 user_pref("browser.places.smartBookmarksVersion", 8);
 user_pref("browser.rights.3.shown", true);
-user_pref("browser.safebrowsing.provider.google4.lastupdatetime", "1541030752878");
-user_pref("browser.safebrowsing.provider.google4.nextupdatetime", "1541032567878");
-user_pref("browser.safebrowsing.provider.mozilla.lastupdatetime", "1541030755470");
-user_pref("browser.safebrowsing.provider.mozilla.nextupdatetime", "1541034355470");
+user_pref("browser.safebrowsing.provider.google4.lastupdatetime", "1541073332366");
+user_pref("browser.safebrowsing.provider.google4.nextupdatetime", "1541075130366");
+user_pref("browser.safebrowsing.provider.mozilla.lastupdatetime", "1541071528451");
+user_pref("browser.safebrowsing.provider.mozilla.nextupdatetime", "1541075128451");
 user_pref("browser.search.countryCode", "KR");
 user_pref("browser.search.region", "KR");
 user_pref("browser.sessionstore.upgradeBackup.latestBuildID", "20181023214826");
