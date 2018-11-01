@@ -68,3 +68,36 @@ vi urls.p
 cd ..
 ls
 python manage.py runserver
+ls
+cd blog
+ls
+mkdir templates
+ls
+cd templates
+mkdir blog
+cd ..
+ls
+source /bin/activate
+source /venv/bin/activate
+source myvenv/bin/activate
+python manage.py runserver
+git status
+git add-all
+git add--all
+git add -all .
+git add --all .
+git status
+git commit -m "Changed the HTML for the site."
+git push
+python manage.py shell
+python manage.py runserver
+python manage.py shell
+python manage.py runserver
+git status
+git add --all .
+git status
+git commit -m "Modified templates to display posts from database."
+git puush
+git push
+python manage.py runserver
+exit
