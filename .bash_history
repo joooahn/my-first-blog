@@ -101,3 +101,26 @@ git puush
 git push
 python manage.py runserver
 exit
+ls
+cd blog
+ls
+mkdir static
+cd static
+mkdir css
+cd css
+ls
+cd ..
+cd ~
+ls
+apm install atom-beautify
+source myenv/bin/activate
+source /myenv/bin/activate
+source /myvenv/bin/activate
+source myvenv/bin/activate
+exit() d
+deactivate
+git status
+git add --all .
+git status
+git commit -m "Added view and template for detailed blog post as well as CSS for the site"
+git push

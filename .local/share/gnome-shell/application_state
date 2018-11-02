@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <application-state>
   <context id="">
-    <application id="gnome-initial-setup.desktop" open-window-count="0" score="5" last-seen="1540859755"/>
-    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="876" last-seen="1541078147"/>
-    <application id="firefox.desktop" open-window-count="1" score="439" last-seen="1541078350"/>
+    <application id="org.gnome.Nautilus.desktop" open-window-count="1" score="3" last-seen="1541118025"/>
     <application id="update-manager.desktop" open-window-count="0" score="0" last-seen="1540859916"/>
-    <application id="atom.desktop" open-window-count="1" score="1508" last-seen="1541078329"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="976" last-seen="1541119655"/>
+    <application id="atom.desktop" open-window-count="1" score="2059" last-seen="1541119630"/>
+    <application id="gnome-initial-setup.desktop" open-window-count="0" score="5" last-seen="1540859755"/>
+    <application id="firefox.desktop" open-window-count="1" score="491" last-seen="1541119655"/>
   </context>
 </application-state>

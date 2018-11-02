@@ -13,12 +13,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/joooahn/blog/models.py" added="2018-10-30T01:29:28Z" modified="2018-10-30T01:29:28Z" visited="2018-10-30T01:29:29Z">
+  <bookmark href="file:///home/joooahn/blog/models.py" added="2018-10-30T01:29:28Z" modified="2018-11-02T00:08:59Z" visited="2018-10-30T01:29:29Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/x-python"/>
         <bookmark:applications>
-          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2018-10-30T01:29:28Z" count="1"/>
+          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2018-11-02T00:08:59Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -43,22 +43,22 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/joooahn/blog/urls.py" added="2018-11-01T00:05:05Z" modified="2018-11-01T13:07:15Z" visited="2018-11-01T00:05:05Z">
+  <bookmark href="file:///home/joooahn/blog/urls.py" added="2018-11-01T00:05:05Z" modified="2018-11-02T00:17:42Z" visited="2018-11-01T00:05:05Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/x-python"/>
         <bookmark:applications>
-          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2018-11-01T13:07:15Z" count="3"/>
+          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2018-11-02T00:17:42Z" count="4"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/joooahn/blog/views.py" added="2018-11-01T00:14:27Z" modified="2018-11-01T13:11:01Z" visited="2018-11-01T00:14:27Z">
+  <bookmark href="file:///home/joooahn/blog/views.py" added="2018-11-01T00:14:27Z" modified="2018-11-02T00:18:45Z" visited="2018-11-01T00:14:27Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/x-python"/>
         <bookmark:applications>
-          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2018-11-01T13:11:01Z" count="3"/>
+          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2018-11-02T00:18:45Z" count="4"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -83,22 +83,33 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/joooahn/blog/templates/blog/base.html" added="2018-11-01T12:33:09Z" modified="2018-11-01T12:33:09Z" visited="2018-11-01T12:33:10Z">
+  <bookmark href="file:///home/joooahn/blog/templates/blog/base.html" added="2018-11-01T12:33:09Z" modified="2018-11-02T00:14:11Z" visited="2018-11-01T12:33:10Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/html"/>
         <bookmark:applications>
-          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2018-11-01T12:33:09Z" count="1"/>
+          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2018-11-02T00:14:11Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/joooahn/blog/templates/blog/post_detail.html" added="2018-11-01T13:18:38Z" modified="2018-11-01T13:18:38Z" visited="2018-11-01T13:18:38.464497Z">
+  <bookmark href="file:///home/joooahn/blog/templates/blog/post_detail.html" added="2018-11-01T13:18:38Z" modified="2018-11-02T00:31:11Z" visited="2018-11-01T13:18:38Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/html"/>
         <bookmark:applications>
-          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2018-11-01T13:18:38Z" count="1"/>
+          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2018-11-02T00:31:11Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/joooahn/blog/forms.py" added="2018-11-02T00:12:41Z" modified="2018-11-02T00:12:48Z" visited="2018-11-02T00:12:42Z">
+    <title>forms.py</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="atom" exec="&apos;atom %u&apos;" modified="2018-11-02T00:12:48Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
