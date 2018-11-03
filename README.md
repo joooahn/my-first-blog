@@ -11,6 +11,15 @@ Django로 만든 Todo List
 $ sudo apt install python3.6
 ```
 
+(Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable) 오류 발생 시)
+```
+$ rm /var/lib/dpkg/lock
+```
+이후에
+```
+$ sudo apt install python3.6
+```
+
 2. git 설치
 
 ```
