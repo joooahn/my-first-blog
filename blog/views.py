@@ -8,7 +8,7 @@ from django.shortcuts import redirect
 
 def post_list(request):
     posts = Post.objects.order_by('priority')
-    return render(request, 'blog/post_list.html', {'posts' : posts})
+    return render(request, 'blog/post_list.html', {'posts' : posts, 'time' : timezone.now})
 
 def post_detail(request, pk):
     post = get_object_or_404(Post, pk=pk)
@@ -20,11 +20,10 @@ def post_new(request):
         if form.is_valid():
             post = form.save(commit=False)
             post.author = request.user
-            post.due_date = timezone.now()
             post.save()
             #return redirect('post_detail', pk=post.pk)
             posts = Post.objects.order_by('priority')
-            return render(request, 'blog/post_list.html', {'posts' : posts})
+            return render(request, 'blog/post_list.html', {'posts' : posts, 'time' : timezone.now})
     else:
         form = PostForm()
     return render(request, 'blog/post_edit.html', {'form' : form})
@@ -38,7 +37,7 @@ def post_completed(request, pk):
         instance.completed = False
     instance.save()
     posts = Post.objects.order_by('priority')
-    return render(request, 'blog/post_list.html', {'posts' : posts})
+    return render(request, 'blog/post_list.html', {'posts' : posts, 'time' : timezone.now})
 
 def post_edit(request, pk):
     post = get_object_or_404(Post, pk=pk)
@@ -47,11 +46,10 @@ def post_edit(request, pk):
         if form.is_valid():
             post = form.save(commit=False)
             post.author = request.user
-            post.published_date = timezone.now()
             post.save()
             #return redirect('post_detail', pk=post.pk)
             posts = Post.objects.order_by('priority')
-            return render(request, 'blog/post_list.html', {'posts' : posts})
+            return render(request, 'blog/post_list.html', {'posts' : posts, 'time' : timezone.now})
     else:
         form = PostForm(instance=post)
     return render(request, 'blog/post_edit.html', {'form' : form})
@@ -61,4 +59,4 @@ def post_delete(request, pk):
     instance = Post.objects.get(pk = pk)
     instance.delete()
     posts = Post.objects.order_by('priority')
-    return render(request, 'blog/post_list.html', {'posts' : posts})
+    return render(request, 'blog/post_list.html', {'posts' : posts, 'time' : timezone.now})
