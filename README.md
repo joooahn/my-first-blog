@@ -20,11 +20,13 @@ $ rm /var/lib/dpkg/lock
 $ sudo apt install python3.6
 ```
 
+
 2. git 설치
 
 ```
 $ sudo apt install git
 ```
+
 
 3. git에서 코드 복사
 
@@ -32,13 +34,16 @@ $ sudo apt install git
 $ git clone https://github.com/joooahn/my-first-blog.git
 ```
 
+
 4. 가상환경(virtualenv) 설치 후 실행
 
 ```
 $ cd my-first-blog
+$ sudo apt install virtualenv
 $ virtualenv --python=python3.6 myvenv
 $ source myvenv/bin/activate
 ```
+
 
 5. 데이터베이스 설치
 
@@ -47,11 +52,13 @@ $ source myvenv/bin/activate
 (mvenv) $ python manage.py createsuperuser
 ```
 
+
 6. 서버 실행
 
 ```
 (myenv) $ python manage.py runserver
 ```
+
 
 7. 웹브라우저로 접속
 
