@@ -45,7 +45,15 @@ $ source myvenv/bin/activate
 ```
 
 
-5. 데이터베이스 설치
+5. 장고 설치
+
+```
+(myvenv) ~$ python3 -m pip install --upgrade pip
+(myvenv) ~$ pip install django~=1.11.0
+```
+
+
+6. 데이터베이스 설치
 
 ```
 (mvenv) $ python manage.py migrate
@@ -53,14 +61,14 @@ $ source myvenv/bin/activate
 ```
 
 
-6. 서버 실행
+7. 서버 실행
 
 ```
 (myenv) $ python manage.py runserver
 ```
 
 
-7. 웹브라우저로 접속
+8. 웹브라우저로 접속
 
 ```
 (웹 브라우저 주소창에) http://127.0.0.1:8000/
