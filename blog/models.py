@@ -8,6 +8,7 @@ class Post(models.Model):
     text = models.TextField()
     due_date = models.DateTimeField(default=timezone.now)
     priority = models.IntegerField(default=0)
+    completed = models.BooleanField(default=False)
 
     def publish(self):
         self.published_date = timezone.now()

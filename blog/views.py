@@ -29,6 +29,17 @@ def post_new(request):
         form = PostForm()
     return render(request, 'blog/post_edit.html', {'form' : form})
 
+def post_completed(request, pk):
+    post = get_object_or_404(Post, pk=pk)
+    instance = Post.objects.get(pk = pk)
+    if instance.completed == False:
+        instance.completed = True
+    else:
+        instance.completed = False
+    instance.save()
+    posts = Post.objects.order_by('priority')
+    return render(request, 'blog/post_list.html', {'posts' : posts})
+
 def post_edit(request, pk):
     post = get_object_or_404(Post, pk=pk)
     if request.method == "POST":
@@ -42,3 +53,10 @@ def post_edit(request, pk):
     else:
         form = PostForm(instance=post)
     return render(request, 'blog/post_edit.html', {'form' : form})
+
+def post_delete(request, pk):
+    post = get_object_or_404(Post, pk=pk)
+    instance = Post.objects.get(pk = pk)
+    instance.delete()
+    posts = Post.objects.order_by('priority')
+    return render(request, 'blog/post_list.html', {'posts' : posts})
